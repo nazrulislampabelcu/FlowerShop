@@ -28,12 +28,7 @@ h6 {
     font-weight: normal;
 }
 
-ul,
-ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 p {
     font-family: 'Inter';
@@ -225,6 +220,46 @@ nav ul .cart a {
     margin-top: 30px;
 }
 
+.plant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.plant-des ul {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    list-style: disc;
+}
+
+.plant-des {
+    padding: 38px 38px;
+}
+
+.plant-des ul li {
+    margin-top: 20px;
+}
+
+.plants-img {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -135px;
+    right: -130px;
+    max-width: 285px;
+    height: 285px;
+}
+
+.plants {
+    padding-top: 210px;
+}
+
+.plant-des h2 {
+    margin-left: -20px;
+}
 
 
 
@@ -244,7 +279,7 @@ nav ul .cart a {
     }
 
     .navbar-area {
-        justify-content: space-around;
+        margin: 13px 16px;
     }
 
     .navbar-area .logo {
@@ -294,4 +329,20 @@ nav ul .cart a {
         margin: 0px 14px;
     }
 
+    .plant {
+        margin: 0px 17px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .plants {
+        padding-top: 0;
+    }
+
+    .plant-des h2 {
+        font-size: 24px;
+    }
+
+    .badge {
+        display: none;
+    }
 }
