@@ -340,6 +340,44 @@ nav ul .cart a {
     border-radius: 15px;
 }
 
+.subscribe {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 533px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+input[type="email"] {
+    width: 650px;
+    padding: 15px 20px;
+    border: 1px solid #ffffff;
+    height: 50px;
+    margin-left: -120px;
+}
+
+
+
+.subscribe .btn {
+    position: absolute;
+    padding: 15px 53.5px;
+    height: 50px;
+    font-weight: 600;
+}
+
+.subscribe h2 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 24px;
@@ -445,4 +483,14 @@ nav ul .cart a {
   .deal-text a{
     font-size: 16px;
   }
+.subscribe h2 {
+    font-size: 20px;
+}
+input[type="email"] {
+    width: 218px;
+}
+.subscribe .btn {
+    padding: 15px 18px;
+}
+
 }
