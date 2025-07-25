@@ -378,6 +378,38 @@ form {
     align-items: center;
 }
 
+
+.footer-area {
+    padding: 50px 0;
+}
+
+.footer-row {
+    display: flex;
+    gap: 110px;
+}
+
+.site-identity {
+    max-width: 360px;
+}
+
+.quick-link {
+    list-style: none;
+}
+
+.social-link img {
+    margin-right: 24px;
+}
+
+.quick-link li {
+    margin-top: 32px;
+}
+
+
+.site-identity img {
+    margin-bottom: 16px;
+}
+
+
 @media (max-width: 768px) {
     h1 {
         font-size: 24px;
@@ -443,7 +475,8 @@ form {
         margin: 50px 14px;
     }
 
-    .plant, .deals {
+    .plant,
+    .deals {
         margin: 0px 17px;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -478,19 +511,35 @@ form {
         height: auto;
         aspect-ratio: 16/9;
     }
+
     .deal-text h3 {
-  font-size: 20px;}
-  .deal-text a{
-    font-size: 16px;
-  }
-.subscribe h2 {
-    font-size: 20px;
-}
-input[type="email"] {
-    width: 218px;
-}
-.subscribe .btn {
-    padding: 15px 18px;
-}
+        font-size: 20px;
+    }
+
+    .deal-text a {
+        font-size: 16px;
+    }
+
+    .subscribe {
+        height: 275px;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+    }
+
+    input[type="email"] {
+        width: 218px;
+    }
+
+    .subscribe .btn {
+        padding: 15px 18px;
+    }
+
+    .footer-row {
+        gap: 20px;
+        flex-direction: column;
+        padding: 0 20px;
+    }
 
 }
